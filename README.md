@@ -55,23 +55,6 @@ FastAPI genera automáticamente documentación interactiva:
 Swagger UI: 👉 http://127.0.0.1:8000/docs
 Redoc: 👉 http://127.0.0.1:8000/redoc
 
-📜 Estructura del Proyecto
-pdf-insight-api/
-│── app/
-│   ├── api/
-│   │   ├── endpoints.py         # Endpoints de FastAPI
-│   ├── core/
-│   ├── database/
-│   │   ├── vector_db.py         # Configuración de SQLite (Singleton)
-│   ├── models/
-│   │   ├── analysis.py          # Modelo de análisis en SQLite
-│   ├── services/
-│   │   ├── gemini_api.py        # Integración con Google Gemini AI
-│   │   ├── pdf_processing.py    # Procesamiento de PDFs y OCR
-│   ├── main.py                  # Punto de entrada de FastAPI
-│── .env                          # Variables de entorno
-│── requirements.txt               # Dependencias del proyecto
-│── README.md                      # Documentación
 
 🛠 Comandos Útiles
 
