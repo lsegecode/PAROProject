@@ -13,7 +13,7 @@ def analyze_text_with_chatgpt(text: str) -> str:
     prompt = f"Analiza el siguiente texto y dime de qué trata, menciona los puntos más importantes:\n\n{text}"
     
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",  # Cambiar a gpt-4-turbo
+        model="gpt-3.5-turbo", 
         messages=[
             {"role": "system", "content": "Eres un asistente experto en análisis de documentos."},
             {"role": "user", "content": prompt}
