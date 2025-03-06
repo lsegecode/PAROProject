@@ -1,7 +1,3 @@
-📌 README.md
-markdown
-Copiar
-Editar
 # 📄 PDF Insight API
 
 API basada en **FastAPI** para analizar informes de partidos en formato **PDF**, extraer texto y generar insights mediante **Google Gemini AI**.
